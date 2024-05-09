@@ -1,0 +1,172 @@
+h1 {
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration-line: underline;
+    border: 1px solid rgb(185, 0, 0);
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+}
+h2 {
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid rgb(185, 0, 0);
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+}
+.col {
+  color: rgb(185, 0, 0);
+  font-size: 20px;
+  font-family: "Georgia", Times, serif;
+}
+  .navbar-toggler {
+  color: rgb(1, 88, 5);
+}
+p1 {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid rgb(185, 0, 0);
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+}
+
+.footer1 {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 30px;
+    border: 1px solid white;
+    text-align: center;
+  background-color: black;
+  display:block;
+  width:100%;
+  bottom:0px
+}
+
+.navbar {
+    position: relative;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 100%;
+}
+
+.logo img {
+    float: left;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+header{
+    display:Flex;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    padding: 0 249px;
+    border-bottom:1px solid #dbdbdb;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  header ul li{
+  display:inline-block;
+  list-style:none;
+  margin:0 30px;
+  
+  }
+  header ul li:last-child{
+    margin-right:0;
+  }
+  header ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 22px 0;
+  display:inline-block;
+  transition:all ease 0.3s;
+  font-size:18px;
+  }
+
+  header ul .submenu{
+    position:absolute;
+    width:200px;
+    background-color: black;
+    box-shadow: 0 20px 45px black;
+    margin-top:-20px;
+    opacity: 0;
+    z-index: -999;
+    transition: all ease 0.1s;
+    }
+    
+    header ul li:hover .submenu{
+      z-index:99;
+      opacity: 1;
+      margin-top: 0;
+    }
+
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:hover {
+  color:brown;
+}
+  .footer {
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    border: 1px solid rgb(185, 0, 0);
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+  background-color: black;
+  margin:7%;
+}
+
+.icon{display:inline-block;}
+
+
+  body{
+    margin:0;
+    font-family:sans-serif;
+    background:White;
+  }
+  h3{
+    text-align:center;
+    font-size:30px;
+    margin:0;
+    padding-top:10px;
+  }
+
+  a{
+  text-decoration:none;
+  }
+ 
+  img{
+    width:200px;
+    height:350px;
+    text-align:center;
+    margin:0 auto;
+    display: block;
+  }
